@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; }
+
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #283645; }
+
+.site-list__item {
+  padding: 15px 0;
+  margin-bottom: 1px;
+  box-shadow: 0px 1px 0 0 #000000, inset 0px 1px 0 0 rgba(255, 255, 255, 0.15); }
+
+.site-list__item-title {
+  display: flex;
+  padding: 15px 20px; }
+
+.site-list__item-menu {
+  display: block;
+  text-decoration: none;
+  color: #ffffff; }
+
+.application {
+  background-color: #1d2631;
+  color: #ffffff; }
+
+.application__download {
+  display: block;
+  width: 281px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 16px 30px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  border: solid 3px #ffffff;
+  border-radius: 30px; }
+  .application__download:hover {
+    background-color: #ffffff;
+    color: #d22856; }
+  .application__download:active {
+    color: rgba(210, 40, 86, 0.3); }
+
+.application__os {
+  width: 240px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 0 auto;
+  margin-bottom: 29px; }
+
+.application__os-description {
+  width: 240px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 35px; }
+
+.features__promo {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+  color: #283645; }
+
+.features__wrapper {
+  padding-top: 75px;
+  background-color: #f2f2f2;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%); }
+
+.features__list {
+  width: 260px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+.features__list-item {
+  margin-bottom: 40px; }
+
+.features__item-header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  font-size: 18px;
+  line-height: 10px; }
+
+.features__item-description {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px; }
+
+.features__image-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.features__image {
+  display: none; }
+
+.features__time-image {
+  display: none; }
+
+.features__joke {
+  display: none; }

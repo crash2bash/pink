@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+@import 'variables.scss';
+@import 'blocks/main-nav.scss';
+@import 'blocks/site-list.scss';
+@import 'blocks/application.scss';
+@import 'blocks/features.scss';
