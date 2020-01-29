@@ -7,8 +7,16 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+@media (min-width: 660px) {
+    body {
+       width: 660px;
+    }
+}
+
 @import 'variables.scss';
 @import 'blocks/main-nav.scss';
 @import 'blocks/site-list.scss';
 @import 'blocks/application.scss';
 @import 'blocks/features.scss';
+@import 'blocks/reviews.scss';
+@import 'blocks/contacts.scss';

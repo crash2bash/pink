@@ -1,0 +1,29 @@
+.reviews__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    margin-top: 30px;
+}
+
+.reviews__author {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.reviews__text {
+    width: 276px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #283645;
+}
+
+.reviews__radio {
+    text-align: center;
+}

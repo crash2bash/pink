@@ -8,6 +8,9 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.site-list--color {
   background-color: #283645; }
 
 .site-list__item {
@@ -23,3 +26,9 @@
   display: block;
   text-decoration: none;
   color: #ffffff; }
+
+.site-list__item--off {
+  display: none; }
+
+.site-list__item--on {
+  display: block; }

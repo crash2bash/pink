@@ -54,10 +54,68 @@
     display: none;
 }
 
+.image-list__friends {
+    display: flex;
+}
+
+.features__image-mobile {
+    margin: 0 auto;
+    margin-bottom: -74px;
+}
+
 .features__time-image {
     display: none;
 }
 
 .features__joke {
     display: none;
+}
+
+@media (min-width: 660px) {
+    .features__promo {
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .features__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .features__list {
+        order: 0;
+        margin: 0;
+    }
+
+    .features__image-list {
+        order: -1;
+    }
+
+    .features__image-mobile {
+        margin: 0;
+        padding: 0;
+    }
+
+    .features__joke-container {
+        width: 660px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 59px;
+
+        background-color: #fff;
+    }
+
+    .features__time-image {
+        display: block;
+        width: 238px;
+    }
+
+    .features__joke {
+        width: 300px;
+        display: block;
+    }
 }

@@ -20,7 +20,7 @@ gulp.task("watch", function() {
         server: "./"
     });
     gulp.watch('./sass/**/*.scss', gulp.parallel('sass')).on('change', browserSync.reload);
-    gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch("*.html").on('change', browserSync.reload);
 });
 
 // Минификатор css

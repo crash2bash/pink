@@ -3,6 +3,7 @@
 .application {
     background-color: $bg-application;
     color: #ffffff;
+    padding-top: 28px;
 }
 
 .application__download {
@@ -51,4 +52,24 @@
 
     margin: 0 auto;
     padding-bottom: 35px;
+}
+
+@media (min-width: 660px) {
+    .application {
+        background-color: transparent;
+        margin-top: -300px;
+        width: 320px;
+        margin-right: auto;
+    }
+
+    .application__download {
+        width: 300px;
+    }
+
+    .application__os-description {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 300;
+        width: 300px;
+    }
 }

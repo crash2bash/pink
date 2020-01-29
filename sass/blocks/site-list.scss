@@ -12,6 +12,10 @@
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.site-list--color {
     background-color: $bg-color;
 }
 
@@ -33,4 +37,12 @@
 
     text-decoration: none;
     color: #ffffff;
+}
+
+.site-list__item--off {
+    display: none;
+}
+
+.site-list__item--on {
+    display: block;
 }

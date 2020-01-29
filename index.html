@@ -16,22 +16,23 @@
                         <a class="site-list__item-pink">Pink</a>
                         <span class="site-list__item-close"></span>
                     </li>
-                    <li class="site-list__item">
-                        <a href="#" class="site-list__item-menu">Главная</a>
-                    </li>
-                    <li class="site-list__item">
-                        <a href="#" class="site-list__item-menu">Фотографии</a>
-                    </li>
-                    <li class="site-list__item">
-                        <a href="#" class="site-list__item-menu">Конкурс</a>
-                    </li>
+                    <div class="site-list__item-wrappper site-list__item--off">
+                        <li class="site-list__item">
+                            <a href="#" class="site-list__item-menu">Главная</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a href="#" class="site-list__item-menu">Фотографии</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a href="#" class="site-list__item-menu">Конкурс</a>
+                        </li>
+                    </div>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section class="application">
-                <img class="application__image" src="" alt="Приложение">
                 <a href="#" class="application__download button download-button">Скачать приложение</a>
                 <figure class="application__os">
                     <img src="img/apple-logo.svg.png" width="47px" height="56px" class="application__apple" alt="Apple">
@@ -69,15 +70,17 @@
                             <img src="" class="features__image" alt="Отредактированное изображение">
                         </li>
                         <li class="features__image-list-tem image-list__friends">
-                            <img src="" class="features__image-mobile" alt="Отредактированное изображение">
+                            <img src="img/iphone_screen_tablet.png" class="features__image-mobile" alt="Отредактированное изображение">
                         </li>
                     </ul>
 
-                    <img class="features__time-image" src="" alt="Изображение часов">
-                    <div class="features__joke">
-                        <h3 class="features__joke-title">Эффект на 24 часа!</h3>
-                        <p class="features__joke-text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
-                        <a href="#" class="features__joke-more">Узнать больше об исследовании</a>
+                    <div class="features__joke-container">
+                        <img class="features__time-image" src="img/time.png" width="238" height="276" alt="Изображение часов">
+                        <div class="features__joke">
+                            <h3 class="features__joke-title">Эффект на 24 часа!</h3>
+                            <p class="features__joke-text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+                            <a href="#" class="features__joke-more">Узнать больше об исследовании</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -126,5 +129,6 @@
             </ul>
             <p class="page-footer__developer">Разработчик</p>
         </footer>
+        <script src="js/main.js"></script>
     </body>
 </html>
